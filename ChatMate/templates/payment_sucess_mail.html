@@ -1,0 +1,36 @@
+
+{% autoescape off %}
+
+<div style="font-family: Arial, sans-serif;">
+
+    <h2>Order Placed</h2>
+
+    <p>Dear ,</p>
+
+    <p>We inform you that Below are the details of the transaction:</p>
+
+    <ul>
+        <li><strong>first name:</strong> {{ mate_f_name }}</li>
+        <li><strong>lastname:</strong> {{ mate_l_name }}</li>
+        <li><strong>email:</strong> {{ mate_email }}</li>
+        <li><strong>phone no:</strong> {{ mate_phone }}</li>
+        <li><strong>username:</strong> {{ mate_u_name }}</li>
+        <li><strong>link:</strong> {{ mate_link }}</li>
+        <li><strong>gender:</strong> {{ meta_gender }}</li>
+        <li><strong>other:</strong> {{ mate_other }}</li>
+        
+
+        
+    </ul>
+
+    <p>Please review the information provided.</p>
+If you have any questions or concerns, feel free to contact our support team at  support@example.com.
+    <p>Thank you for your understanding.</p>
+
+    <p>Best regards,<br>
+    Your Company Name</p>
+
+    </div>
+
+
+{% endautoescape %}
